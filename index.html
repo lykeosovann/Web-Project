@@ -2,10 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Drink Website</title>
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    
-</body>
-</html>
+    <!--Navbar-->
+    <header>
+        <a href="#" class="logo">
+            <img src="img/about-logo.png" alt="">
+        </a>
+        <!--Menu-Icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--links-->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+        <!--Icon-->
+        <div class="header-icon">
+            <i class='bx bx-cart-alt' ></i>
+            <i class='bx bx-search' id="search-icon"></i>
+        </div>
+        <!--Search Box-->
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Search Here...">
+        </div>
+    </header>
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Start your day <br> with Milk Tea</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae eaque officiis totam nemo accusantium laudantium unde non vel mollitia magni. Deserunt inventore, nulla minima perspiciatis sapiente aperiam incidunt optio velit.</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+        <div class="home-img">
+            <img src="img/main.png" alt="">
+        </div>
+    </section>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Our History</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fuga, necessitatibus ipsam blanditiis corporis, facere quae esse veniam neque nemo tempore maxime unde eius facilis, assumenda iste sint repellendus. Rem.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum saepe facilis earum veniam vitae, repellat esse sequi commodi excepturi natus unde non at libero quia quidem voluptates neque quae obcaecati.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum repudiandae aspernatur placeat est in eos doloribus magni nemo atque deleniti error hic sequi odio amet, voluptas officia? Molestiae, quam nisi.</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </section>
+    <!--Products-->
+    <section class="products" id="products">
+        <div class="heading">
+            <h2>Our popular drinks</h2>
+        </div>
+        <!--Container-->
+        <div class="products-container">
+            <div class="box">
+                <img src="img/p1.jpg" alt="">
+                <h3>Jumbo Milk Tea</h3>
+                <div class="content">
+                    <span>$3.2</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/p2.jpg" alt="">
+                <h3>Konjac Milk Tea</h3>
+                <div class="content">
+                    <span>$3.2</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/p3.jpg" alt="">
+                <h3>Passion Tea</h3>
+                <div class="content">
+                    <span>$2.3</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/p4.jpg" alt="">
+                <h3>Green Tea Macchiato</h3>
+                <div class="content">
+                    <span>$2.5</span>
+                    <a href="#">Add to cart</a>
