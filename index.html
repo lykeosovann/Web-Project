@@ -1,216 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Drink Website</title>
-    <!--Link to CSS-->
-    <link rel="stylesheet" href="style.css">
-    <!--Box icons-->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-</head>
-<body>
-    <!--Navbar-->
-    <header>
-        <a href="#" class="logo">
-            <img src="img/about-logo.png" alt="">
-        </a>
-        <!--Menu-Icon-->
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <!--links-->
-        <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#customers">Customers</a></li>
-        </ul>
-        <!--Icon-->
-        <div class="header-icon">
-            <i class='bx bx-cart-alt' ></i>
-            <i class='bx bx-search' id="search-icon"></i>
-        </div>
-        <!--Search Box-->
-        <div class="search-box">
-            <input type="search" name="" id="" placeholder="Search Here...">
-        </div>
-    </header>
-    <!--Home-->
-    <section class="home" id="home">
-        <div class="home-text">
-            <h1>Start your day <br> with Milk Tea</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae eaque officiis totam nemo accusantium laudantium unde non vel mollitia magni. Deserunt inventore, nulla minima perspiciatis sapiente aperiam incidunt optio velit.</p>
-            <a href="#" class="btn">Buy Now</a>
-        </div>
-        <div class="home-img">
-            <img src="img/main.png" alt="">
-        </div>
-    </section>
-    <!--About-->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/about.jpg" alt="">
-        </div>
-        <div class="about-text">
-            <h2>Our History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fuga, necessitatibus ipsam blanditiis corporis, facere quae esse veniam neque nemo tempore maxime unde eius facilis, assumenda iste sint repellendus. Rem.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum saepe facilis earum veniam vitae, repellat esse sequi commodi excepturi natus unde non at libero quia quidem voluptates neque quae obcaecati.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum repudiandae aspernatur placeat est in eos doloribus magni nemo atque deleniti error hic sequi odio amet, voluptas officia? Molestiae, quam nisi.</p>
-            <a href="#" class="btn">Learn more</a>
-        </div>
-    </section>
-    <!--Products-->
-    <section class="products" id="products">
-        <div class="heading">
-            <h2>Our popular drinks</h2>
-        </div>
-        <!--Container-->
-        <div class="products-container">
-            <div class="box">
-                <img src="img/p1.jpg" alt="">
-                <h3>Jumbo Milk Tea</h3>
-                <div class="content">
-                    <span>$3.2</span>
-                    <a href="#">Add to cart</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Drink Website</title>
+        <!--Link to CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!--Box icons-->
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <!--Navbar-->
+        <header>
+            <a href="#" class="logo">
+                <img src="img/about-logo.png" alt>
+            </a>
+            <!--Menu-Icon-->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!--links-->
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#customers">Customers</a></li>
+            </ul>
+            <!--Icon-->
+            <div class="header-icon">
+                <a href="#products"><i class='bx bx-cart-alt'></i></a>
+                <a><i class='bx bx-search' id="search-icon"></i></a>
+                <!-- login button -->
+                <div class="login-btn">
+                    <a href="login-signup.html" class="btn login-btn">Login</a>
                 </div>
             </div>
-            <div class="box">
-                <img src="img/p2.jpg" alt="">
-                <h3>Konjac Milk Tea</h3>
-                <div class="content">
-                    <span>$3.2</span>
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img/p3.jpg" alt="">
-                <h3>Passion Tea</h3>
-                <div class="content">
-                    <span>$2.3</span>
-                    <a href="#">Add to cart</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img/p4.jpg" alt="">
-                <h3>Green Tea Macchiato</h3>
-                <div class="content">
-                    <span>$2.5</span>
-                    <a href="#">Add to cart</a>
 
+            <!--Search Box-->
+            <div class="search-box">
+                <input type="search" name id placeholder="Search Here...">
+            </div>
+        </header>
+        <!--Home-->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>Start your day <br> with Milk Tea</h1>
+                <p>Happiness is to share special moments with friends. A celebration, a date or just a relaxing break in the day, there is always a reason to get together around a cup of KOI tea. KOI brings joy to the world. Freshly brewed tea and flavorful ingredients, prepared with passion are the key to KOI’s authentic taste and the reason why people come back again and again.
+                </p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="home-img">
+                <img src="img/main.png" alt>
+            </div>
+        </section>
+        <!--About-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/about.jpg" alt>
+            </div>
+            <div class="about-text">
+                <h2>Our History</h2>
+                <p>KOI Thé is a popular bubble tea brand that originated in Taiwan as part of the 50 Lan chain before rebranding to expand internationally. Known for its premium quality teas and unique golden tapioca pearls, KOI Thé offers a refined tea experience with a focus on fresh ingredients and customizable sweetness and ice levels. The brand has grown globally, with locations across Asia, the U.S., and other regions. Its signature drinks, such as Golden Bubble Milk Tea, Oolong Milk Tea, and Green Tea Macchiato, have helped establish KOI Thé as a go-to destination for bubble tea lovers, providing a consistent and high-quality beverage experience worldwide.</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </section>
+        <!--Products-->
+        <section class="products" id="products">
+            <div class="heading">
+                <h2>Our popular drinks</h2>
+            </div>
+            <!--Container-->
+            <div class="products-container">
+                <div class="box">
+                    <img src="img/p1.jpg" alt>
+                    <h3>Jumbo Milk Tea</h3>
+                    <div class="content">
+                        <span>$3.2</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p2.jpg" alt>
+                    <h3>Konjac Milk Tea</h3>
+                    <div class="content">
+                        <span>$3.2</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p3.jpg" alt>
+                    <h3>Passion Tea</h3>
+                    <div class="content">
+                        <span>$2.3</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p4.jpg" alt>
+                    <h3>Green Tea Macchiato</h3>
+                    <div class="content">
+                        <span>$2.5</span>
+                        <a href="#">Add to cart</a>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p5.jpg" alt>
+                    <h3>Black Tea Macchiato</h3>
+                    <div class="content">
+                        <span>$2.5</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p6.jpg" alt>
+                    <h3>Bubble Black Tea</h3>
+                    <div class="content">
+                        <span>$2.7</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/ice_honey.jpg" alt>
+                    <h3>Ice Honey</h3>
+                    <div class="content">
+                        <span>$3.0</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/fresh_limeJuice.jpg" alt>
+                    <h3>Fresh Lime Juice</h3>
+                    <div class="content">
+                        <span>$2.75</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/cocao_berryLatter.jpg" alt>
+                    <h3>Cocao Berry Latter</h3>
+                    <div class="content">
+                        <span>$3.2</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/hazelnut_black_tae_latter.jpg" alt>
+                    <h3>Hazelnut Black Tae Latter</h3>
+                    <div class="content">
+                        <span>$2.7</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/chocolate_milk.jpg" alt>
+                    <h3>Chocolate Milk</h3>
+                    <div class="content">
+                        <span>$2.5</span>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/lychee_black_tea_macchiato.jpg" alt>
+                    <h3>Lychee Black Tea Macchiato</h3>
+                    <div class="content">
+                        <span>$3.0</span>
+                        <a href="#">Add to cart</a>
+                    </div>
                 </div>
             </div>
-            <div class="box">
-                <img src="img/p5.jpg" alt="">
-                <h3>Black Tea Macchiato</h3>
-                <div class="content">
-                    <span>$2.5</span>
-                    <a href="#">Add to cart</a>
+        </section>
+        <!--Customers-->
+        <section class="customers" id="customers">
+            <div class="heading">
+                <h2>Our customer's</h2>
+            </div>
+            <!--container-->
+            <div class="customers-container">
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>"KOI Thé has completely changed my bubble tea game! I love how they offer a wide range of customizable options for sweetness and ice levels, allowing me to adjust my drink just the way I like it. Their Golden Bubble Milk Tea is by far my favorite — the tapioca pearls are so soft and sweet, and the tea is always fresh. The quality and consistency of every cup I get are unmatched, and I appreciate how they maintain high standards no matter which location I visit. Definitely my go-to bubble tea spot!"</p>
+                    <h2>G-Devith</h2>
+                    <img src="img/gd.jpg" alt>
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>"I’ve tried many bubble tea places, but KOI Thé stands out as the best by far. The flavors are vibrant and refreshing, and I’m always impressed by the quality of the ingredients they use. The Green Tea Macchiato is my absolute favorite — it’s the perfect balance of tea and creamy goodness. Plus, their golden bubbles are a game changer! Soft, chewy, and perfectly sweet. Every visit is consistent, and I can always count on a satisfying drink. I highly recommend KOI Thé to anyone who’s a fan of high-quality bubble tea!"</p>
+                    <h2>Vannda</h2>
+                    <img src="img/vd.jpg" alt>
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>"KOI Thé is hands down one of the best bubble tea chains I’ve found. From the first sip, you can tell they prioritize quality. I love their wide range of drinks, but the signature Golden Bubble Milk Tea has to be my favorite — the pearls are perfectly chewy, and the milk tea is rich without being too sweet. The customization options let me adjust my drink just the way I like it, which is a huge plus. I also love how clean and modern the locations are. The service is quick, and the staff is always so welcoming. I’ll definitely be returning!"</p>
+                    <h2>Zhao Lusi</h2>
+                    <img src="img/lusi.jpg" alt>
+                </div>
+
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer-box">
+                <h2>KOI The</h2>
+                <p>"KOI Thé isn’t just a drink, it’s an experience — where every sip is crafted with quality, every bubble is perfectly sweet, and every visit feels like a treat."</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-tiktok'></i></a>
                 </div>
             </div>
-            <div class="box">
-                <img src="img/p6.jpg" alt="">
-                <h3>Bubble Black Tea</h3>
-                <div class="content">
-                    <span>$2.7</span>
-                    <a href="#">Add to cart</a>
+            <div class="footer-box">
+                <h3>Support</h2>
+                <li><a href="#">Drinks</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>View Guild</h2>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">Our Branches</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <div class="contact">
+                    <span><i class='bx bxs-map'></i>Russey Keo, Phnom Penh,
+                        Cambodia</span>
+                    <span><i class='bx bxs-phone'></i>+855 23 758 412</span>
+                    <span><i
+                            class='bx bxs-envelope'></i>koithecambodia@gmail.com</span>
                 </div>
             </div>
+        </section>
+        <!--copyright-->
+        <div class="copyright">
+            <p>&#169; CarpoolVenom All right Reserved</p>
+
         </div>
-    </section>
-    <!--Customers-->
-    <section class="customers" id="customers">
-        <div class="heading">
-            <h2>Our customer's</h2>
-        </div>
-        <!--container-->
-        <div class="customers-container">
-            <div class="box">
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae. Minima molestias alias suscipit maxime debitis excepturi, quos accusamus quam hic aliquid. Consequuntur in modi repellendus facere sunt. Culpa, laudantium.</p>
-                <h2>G-Devith</h2>
-                <img src="img/gd.jpg" alt="">
-            </div>
-            <div class="box">
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae. Minima molestias alias suscipit maxime debitis excepturi, quos accusamus quam hic aliquid. Consequuntur in modi repellendus facere sunt. Culpa, laudantium.</p>
-                <h2>Vannda</h2>
-                <img src="img/vd.jpg" alt="">
-            </div>
-            <div class="box">
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae. Minima molestias alias suscipit maxime debitis excepturi, quos accusamus quam hic aliquid. Consequuntur in modi repellendus facere sunt. Culpa, laudantium.</p>
-                <h2>Zhao Lusi</h2>
-                <img src="img/lusi.jpg" alt="">
-            </div>
 
-
-        </div>
-    </section>
-    <section class="footer">
-        <div class="footer-box">
-            <h2>KOI The</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas!</p>
-            <div class="social">
-                <a href="#"><i class='bx bxl-facebook' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-tiktok' ></i></a>
-            </div>
-        </div>
-        <div class="footer-box">
-            <h3>Support</h2>
-            <li><a href="#">Drinks</a></li>
-            <li><a href="#">Help & Support</a></li>
-            <li><a href="#">Return Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-        </div>
-        <div class="footer-box">
-            <h3>View Guild</h2>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog Posts</a></li>
-            <li><a href="#">Our Branches</a></li>
-        </div>
-        <div class="footer-box">
-            <h3>Contact</h3>
-            <div class="contact">
-                <span><i class='bx bxs-map' ></i>Russey Keo, Phnom Penh, Cambodia</span>
-                <span><i class='bx bxs-phone'></i>+855 23 758 412</span>
-                <span><i class='bx bxs-envelope'></i>koithecambodia@gmail.com</span>
-            </div>
-        </div>
-    </section>
-    <!--copyright-->
-    <div class="copyright">
-        <p>&#169; CarpoolVenom All right Reserved</p>
-        
-    </div>
-
-
-
-
-
-
-
-    <!--Link to JS-->
-    <script src="main.js"></script>
-</body>
+        <!--Link to JS-->
+        <script src="main.js"></script>
+    </body>
 </html>
