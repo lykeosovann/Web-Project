@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200,300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Variables */
+:root {
+    --main-color: #bc9667;
+    --second-color: #edeae3a4;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+    /* Box shadow */
+    --box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin-top: 80px;  /* Move content down */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5s linear;
+    box-shadow: var(--box-shadow);
+}
+
+header h1 {
+    text-align: center;
+}
+
+.logo img {
+    width: 60px;
+}
+
+section {
+    padding: 50px 100px;
+    padding-top: 50px;  /* Add padding at the top to avoid overlap with header */
+    margin-top: 20px;   /* Adds a small margin to further space out the section */
+}
+
+img {
+    width: 100%;
+}
+
+#cart-items {
+    padding: 20px;
+}
+
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.cart-item button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+footer .btn {
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+footer .btn:hover {
+    opacity: 0.5;
+}
